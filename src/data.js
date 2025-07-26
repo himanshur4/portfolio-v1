@@ -11,8 +11,8 @@ export const data={
                 "Javascript","React","Express","MongoDB","Typescript","Node.js"
             ],
 
-            "liveLink":"",
-            "sourceCode":"",
+            "liveLink":"https://lernix-psi-two.vercel.app",
+            "sourceCode":"https://github.com/himanshur4/lernix-learning-platform",
             "videoPreview":"",
         },
         {
@@ -22,14 +22,14 @@ export const data={
             "techStack":[
                 "Typescript","Node.js","Next.js","C++","PostgreSQL","Python","GraphQL"
             ],
-            "liveLink":"",
-            "sourceCode":"",
+            "liveLink":"https://vibe-call.vercel.app",
+            "sourceCode":"https://github.com/himanshur4/VibeCall",
             "videoPreview":"",
         },
         {
             "id":"3",
-            "title":"Lernix-Learning Platform",
-            "description":"Full stack LMS website where user can enroll in a course publish course with dashboard",
+            "title":"ExpenseWise",
+            "description":"Full stack expense tracking application",
             "techStack":[
                 "Javascript","React","Express","MongoDB","Typescript","Node.js"
             ],

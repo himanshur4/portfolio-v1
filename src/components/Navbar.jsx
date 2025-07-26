@@ -14,7 +14,7 @@ const Navbar = () => {
   }, [darkMode]);
 
   return (
-    <div className='flex items-center justify-end p-4'>
+    <div className='flex items-center justify-end p-4 my-1'>
         <button onClick={toggleDarkMode} className="focus:outline-none mr-4">
         {darkMode ? (
           <SunIcon  className="size-7 sm:size-8 text-gray-800 dark:text-yellow-400 cursor-pointer border-1 p-1 rounded-lg" aria-label="Toggle Light Mode" />
