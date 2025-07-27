@@ -65,8 +65,8 @@ export const data={
     ],
     social:{
         "github":"https://github.com/himanshur4",
-        "X":"",
-        "linkedin":"https://linkedin.com/himanshur4",
+        "X":"https://x.com/himanshuucodes",
+        "linkedin":"https://linkedin.com/in/himanshur4",
         "email":"himanshu.tech37.com"
     }
 }
