@@ -39,9 +39,11 @@ const ContactCard = () => {
                     </label>
                     <textarea rows={3} type='textarea' name='message' id='message' required value={formData.message} onChange={handleChange} className="mt-1 block text-sm w-full rounded-md border-gray-500 border-1 px-3 outline-none focus:border-2 min-h-20 pt-1" placeholder='Send Message...'></textarea>
                 </div>
-                <button type='submit' className='bg-black text-white px-5 py-1 mt-4 mb-2 dark:bg-gray-50 dark:text-black rounded-md cursor-pointer'>
+                <div className='flex items-center justify-center'>
+                <button type='submit' className='bg-black text-white px-9 py-1 mt-4 mb-2 dark:bg-gray-50 dark:text-black rounded-md cursor-pointer '>
                     Submit
                 </button>
+                </div>
             </form>
         </div>
     )

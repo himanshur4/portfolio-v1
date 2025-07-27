@@ -67,6 +67,6 @@ export const data={
         "github":"https://github.com/himanshur4",
         "X":"",
         "linkedin":"https://linkedin.com/himansur4",
-        "email":"hraj808404@gmail.com"
+        "email":"himanshu.tech37.com"
     }
 }
