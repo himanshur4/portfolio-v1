@@ -7,7 +7,7 @@ const Contact = () => {
     window.location.href=url
   }
   return (
-    <div className=' ml-10 mt-5 mr-10'>
+    <div className='mt-5 mx-5'>
       <h1 className='font-bold text-lg sm:text-xl md:text-2xl'>
         Contact<hr className='mt-2 border-dashed' />
 
