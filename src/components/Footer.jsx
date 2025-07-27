@@ -10,7 +10,7 @@ const Footer = () => {
         <br />
       </h1>
 
-        <p className='text-xs  text-gray-500 dark:text-gray-400 mt-1'>© {new Date().getFullYear()} All rights reserved.</p>
+        <p className='text-xs  text-gray-800 dark:text-gray-400 mt-1'>© {new Date().getFullYear()} All rights reserved.</p>
     </div>
   )
 }

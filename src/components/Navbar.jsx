@@ -3,15 +3,11 @@ import React, { useEffect } from 'react'
 import { useThemeStore } from '../store/useThemeStore';
 
 const Navbar = () => {
-    const { darkMode, toggleDarkMode } = useThemeStore();
+   const { darkMode, toggleDarkMode, initializeTheme } = useThemeStore();
 
   useEffect(() => {
-    if (darkMode) {
-      document.documentElement.classList.add('dark');
-    } else {
-      document.documentElement.classList.remove('dark');
-    }
-  }, [darkMode]);
+    initializeTheme(); 
+  }, []);
 
   return (
     <div className='flex items-center justify-end p-4 my-1'>
