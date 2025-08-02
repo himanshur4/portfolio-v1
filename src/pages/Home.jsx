@@ -10,7 +10,7 @@ import { useThemeStore } from "../store/useThemeStore"
 const Home = () => {
      const {darkMode} = useThemeStore();
   return (
-    <div className="flex flex-col dark:text-gray-300 w-full sm:w-2xl md:w-3xl min-h-screen " >
+    <div className="flex flex-col dark:text-gray-300 w-full sm:w-2xl md:w-3xl min-h-screen rounded-md " >
         <Navbar/>
         <Hero />
         <Skills/>

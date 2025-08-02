@@ -46,7 +46,7 @@ export const data={
                 "React.js","Express","Node.js","MongoDB"
             ],
 
-            "liveLink":"https://noteflow-gamma.vercel.app/",
+            "liveLink":"https://github.com/himanshur4/note-flow",
             "sourceCode":"https://github.com/himanshur4/note-flow",
             "videoPreview":"#",
         },
@@ -58,7 +58,7 @@ export const data={
                 "Nextjs","MongoDB","TailwindCSS"
             ],
 
-            "liveLink":"#",
+            "liveLink":"https://github.com/himanshur4/blog-app",
             "sourceCode":"https://github.com/himanshur4/blog-app",
             "videoPreview":"#",
         }

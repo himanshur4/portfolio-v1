@@ -6,7 +6,7 @@ const Footer = () => {
         <hr className='mt-2 border-dashed' />
       <h1 className='font-semibold text-sm sm:text-md md:text-md pt-4'>
          
-        Made with ❤️ by Himanshu
+        Created by Himanshu
         <br />
       </h1>
 
