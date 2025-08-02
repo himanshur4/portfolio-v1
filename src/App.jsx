@@ -3,7 +3,7 @@ import Home from './pages/Home'
 const App = () => {
   return (
     <div className='flex justify-center min-h-screen 
- font-mono font-medium dark:bg-gradient-to-br dark:from-[#0d1117] dark:to-[#29292a] bg-gradient-to-bl from-[#ffffff] to-[#d9e6ff]'>
+ font-mono font-medium dark:bg-gradient-to-br dark:from-[#0d1117] dark:via-[#18191a] dark:to-[#21262d] bg-gradient-to-bl from-[#fcfaf3] to-[#dbe4ff]'>
       <Home/>
     </div>
   )
