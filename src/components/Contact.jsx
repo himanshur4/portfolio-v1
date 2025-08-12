@@ -19,7 +19,7 @@ const Contact = () => {
           <a href="mailto:himanshu.tech37@gmail.com"><Mail className='size-8 sm:size-9 md:size-10 cursor-pointer dark:text-gray-300 transition-transform duration-300 ease-in-out hover:scale-108 border-1 hover:bg-gray-900 hover:text-gray-50 dark:border-gray-300 p-1 rounded-lg text-green-950 dark:hover:bg-gray-100 dark:hover:text-gray-800' /></a>
           <Linkedin className='size-8 sm:size-9 md:size-10 cursor-pointer dark:text-gray-300 transition-transform duration-300 ease-in-out hover:scale-108 border-1 hover:bg-gray-900 hover:text-gray-50 dark:border-gray-300 p-1 rounded-lg text-green-950 dark:hover:bg-gray-100 dark:hover:text-gray-800' onClick={()=>handleLinkClick(data.social.linkedin)} />
         </div>
-       <a href='/resume.pdf'><p className='text-center font-bold hover:underline cursor-pointer mb-3 hover:scale-105 '>View Resume</p></a> 
+       <a href='/resumeFinal.pdf'><p className='text-center font-bold hover:underline cursor-pointer mb-3 hover:scale-105 '>View Resume</p></a> 
         <div className='flex items-center justify-center'>
          <ContactCard/>
         </div>
