@@ -1,5 +1,4 @@
 import { Github, Linkedin, Mail, Twitter } from 'lucide-react'
-import React from 'react'
 import ContactCard from './ContactCard'
 import { data } from '../data'
 const Contact = () => {
