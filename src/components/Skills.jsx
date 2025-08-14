@@ -8,8 +8,8 @@ const Skills = () => {
         Skills<hr className='mt-2 border-dashed'/>
         
       </h1>
-      <div className='flex flex-row items-center flex-wrap ml-1 sm:ml-2 md:ml-3 gap-1 mt-2'>
-        {data.skills.map((sk)=>(<div className='text-xs sm:text-sm p-1 border border-gray-50 bg-gray-800 text-white dark:border-gray-700 dark:bg-gray-50 dark:text-black rounded '>{sk}</div>))}
+      <div className='flex flex-row items-center flex-wrap ml-1 sm:ml-2 md:ml-3 gap-1 mt-2 rounded'>
+        {data.skills.map((sk)=>(<div className='text-xs sm:text-sm p-1 border border-white bg-gray-800 text-white dark:border-black dark:bg-gray-50 dark:text-black rounded'>{sk}</div>))}
       </div>
 
     </div>

@@ -13,10 +13,14 @@ const Contact = () => {
       </h1>
       <div className="flex-col">
         <div className="flex items-center justify-center gap-3 md:gap-4 pt-6 pb-2 mx-3">
-          <Github className='size-8 sm:size-9 md:size-10 cursor-pointer dark:text-gray-300 transition-transform duration-300 ease-in-out hover:scale-108 border-1 hover:bg-gray-900 hover:text-gray-50 dark:border-gray-300 p-1 rounded-lg text-green-950 dark:hover:bg-gray-100 dark:hover:text-gray-800' onClick={()=>handleLinkClick(data.social.github)}/>
-          <Twitter className='size-8 sm:size-9 md:size-10 cursor-pointer dark:text-gray-300 transition-transform duration-300 ease-in-out hover:scale-108 border-1 hover:bg-gray-900 hover:text-gray-50 dark:border-gray-300 p-1 rounded-lg text-green-950 dark:hover:bg-gray-100 dark:hover:text-gray-800' onClick={()=>handleLinkClick(data.social.X)} />
-          <a href="mailto:himanshu.tech37@gmail.com"><Mail className='size-8 sm:size-9 md:size-10 cursor-pointer dark:text-gray-300 transition-transform duration-300 ease-in-out hover:scale-108 border-1 hover:bg-gray-900 hover:text-gray-50 dark:border-gray-300 p-1 rounded-lg text-green-950 dark:hover:bg-gray-100 dark:hover:text-gray-800' /></a>
-          <Linkedin className='size-8 sm:size-9 md:size-10 cursor-pointer dark:text-gray-300 transition-transform duration-300 ease-in-out hover:scale-108 border-1 hover:bg-gray-900 hover:text-gray-50 dark:border-gray-300 p-1 rounded-lg text-green-950 dark:hover:bg-gray-100 dark:hover:text-gray-800' onClick={()=>handleLinkClick(data.social.linkedin)} />
+          <Github className='rounded size-8 sm:size-9 md:size-10 p-1  cursor-pointer dark:text-gray-400 transition-transform duration-300 ease-in-out hover:scale-108 hover:bg-gray-900 hover:text-gray-50
+          border border-solid dark:border-black shadow-[2px_2px_0px_#000000] dark:shadow-[2px_2px_0px_#999]  text-gray-950 dark:hover:bg-gray-100 dark:hover:text-gray-800 dark:bg-zinc-950' onClick={()=>handleLinkClick(data.social.github)}/>
+          <Twitter className='rounded size-8 sm:size-9 md:size-10 p-1  cursor-pointer dark:text-gray-400 transition-transform duration-300 ease-in-out hover:scale-108 hover:bg-gray-900 hover:text-gray-50
+          border border-solid dark:border-black shadow-[2px_2px_0px_#000000] dark:shadow-[2px_2px_0px_#999]  text-gray-950 dark:hover:bg-gray-100 dark:hover:text-gray-800 dark:bg-zinc-950' onClick={()=>handleLinkClick(data.social.X)} />
+          <a href="mailto:himanshu.tech37@gmail.com"><Mail className='rounded size-8 sm:size-9 md:size-10 p-1  cursor-pointer dark:text-gray-400 transition-transform duration-300 ease-in-out hover:scale-108 hover:bg-gray-900 hover:text-gray-50
+          border border-solid dark:border-black shadow-[2px_2px_0px_#000000] dark:shadow-[2px_2px_0px_#999]  text-gray-950 dark:hover:bg-gray-100 dark:hover:text-gray-800 dark:bg-zinc-950' /></a>
+          <Linkedin className='rounded size-8 sm:size-9 md:size-10 p-1  cursor-pointer dark:text-gray-400 transition-transform duration-300 ease-in-out hover:scale-108 hover:bg-gray-900 hover:text-gray-50
+          border border-solid dark:border-black shadow-[2px_2px_0px_#000000] dark:shadow-[2px_2px_0px_#999]  text-gray-950 dark:hover:bg-gray-100 dark:hover:text-gray-800 dark:bg-zinc-950' onClick={()=>handleLinkClick(data.social.linkedin)} />
         </div>
        <a href='/resumeFinal.pdf'><p className='text-center font-bold hover:underline cursor-pointer mb-3 hover:scale-105 '>View Resume</p></a> 
         <div className='flex items-center justify-center'>
