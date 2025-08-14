@@ -14,7 +14,7 @@ const Projects = () => {
       </h1>
       <div className="flex flex-col gap-1 md:gap-1.5 lg:gap-2 p-1 mt-2">
         {
-          proj.map((proj) => (<div className='flex-col bg-gray-100 dark:bg-zinc-950 border border-solid dark:border-zinc-500 shadow-[3px_4px_0px_#000000] dark:shadow-[2px_3px_0px_#999] p-1 cursor-pointer hover:transform-3d mt-2 sm:mt-2 md:mt-3 transition-transform duration-300 ease-in-out hover:scale-102 rounded' key={proj.id} onClick={() => handleLinkClick(proj.liveLink)}>
+          proj.map((proj) => (<div className='flex-col bg-gray-50 dark:bg-zinc-950 border border-solid dark:border-zinc-500 shadow-[3px_4px_0px_#000000] dark:shadow-[2px_3px_0px_#999] p-1 cursor-pointer hover:transform-3d mt-2 sm:mt-2 md:mt-3 transition-transform duration-300 ease-in-out hover:scale-102 rounded' key={proj.id} onClick={() => handleLinkClick(proj.liveLink)}>
             <div className="flex justify-between border-b-1 border-dotted dark:border-b-gray-500">
               <h1 className='text-xl font-semibold bg-clip-text text-transparent bg-gradient-to-r dark:from-[#A1C2D4] dark:via-[#BAC8A3] dark:to-[#F1F2B5]  from-[#081c58] via-[#4B545E] to-[#09313f]' >
                 {proj.title}
