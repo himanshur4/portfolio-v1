@@ -1,6 +1,6 @@
 export const data={
     skills:[
-        "Javascript","Typescript","React","Express","TailwindCSS","Next.js","Node.js","MongoDB","GraphQL","TanStack Query","C++","Python"
+        "Javascript","Typescript","React","Express","TailwindCSS","Next.js","Node.js","MongoDB","GraphQL","TanStack Query","Firebase","C++","Python"
     ],
     projects:[
         {
@@ -40,6 +40,19 @@ export const data={
         },
         {
             "id":"4",
+            "title":"TripNest",
+            "description":"Simple Trip planner app for planning next trips.",
+            "techStack":[
+                "React.js","Firebase","Shadcn UI","Gemini API"
+            ],
+
+            "liveLink":"https://trip-nest-1.web.app/",
+            "sourceCode":"https://github.com/himanshur4/trip-nest",
+            "videoPreview":"https://www.loom.com/share/45eb54674f244414b8e0de46710d7e20?sid=5f7d5639-2c50-4a47-a79f-4bb8f672a508",
+
+        },
+        {
+            "id":"5",
             "title":"NoteFlow",
             "description":"Minimalist note-taking app with CRUD features and smooth UI transitions.",
             "techStack":[
@@ -51,7 +64,7 @@ export const data={
             "videoPreview":"#",
         },
          {
-            "id":"5",
+            "id":"6",
             "title":"BlogForge",
             "description":"Clean blogging platform with admin panel and blog filtering.",
             "techStack":[
