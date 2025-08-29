@@ -1,6 +1,6 @@
 export const data={
     skills:[
-        "Javascript","Typescript","React","Express","TailwindCSS","Next.js","Node.js","MongoDB","GraphQL","TanStack Query","shadcn/ui","Framer Motion","Firebase","C++","Python"
+        "Javascript","Typescript","React","Express","TailwindCSS","Next.js","Node.js","MongoDB","PostgreSQL","Prisma","GraphQL","TanStack Query","shadcn/ui","Framer Motion","Firebase","C++","Python"
     ],
     projects:[
         {
