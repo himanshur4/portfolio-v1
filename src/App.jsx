@@ -1,3 +1,4 @@
+import AppBackground from './components/AppBG'
 import Home from './pages/Home'
 
 const App = () => {
