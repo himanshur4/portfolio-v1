@@ -40,7 +40,7 @@ const ContactCard = () => {
                     <textarea rows={3} type='textarea' name='message' id='message' required value={formData.message} onChange={handleChange} className="mt-1 block text-sm w-full border-gray-500 px-3 rounded outline-none focus:border-2 min-h-20 pt-1 border border-solid dark:border-stone-500 shadow-[1px_1px_3px_#777777] dark:shadow-[1px_1px_3px_#555555]" placeholder='Send Message...'></textarea>
                 </div>
                 <div className='flex items-center justify-center'>
-                <button type='submit' className=' px-9 py-1 mt-4 mb-2 cursor-pointer border border-solid dark:border-stone-500 shadow-[3px_3px_0px_#000000] dark:shadow-[2px_2px_0px_#999] hover-underline rounded'>
+                <button type='submit' className=' px-9 py-1 mt-4 mb-2 cursor-pointer border border-solid dark:border-stone-500 shadow-[3px_3px_2px_#999999] dark:shadow-[2px_2px_0px_#555555] hover-underline rounded'>
                    Submit
                 </button>
                 </div>
