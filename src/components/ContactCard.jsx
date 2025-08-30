@@ -18,7 +18,7 @@ const ContactCard = () => {
         setFormData({...formData,[name]:value})
     }
     return (
-        <div className='flex-col justify-center items-start w-full sm:w-3/4 bg-gray-50 dark:bg-zinc-950 p-2 border border-solid dark:border-stone-500 shadow-[3px_4px_7px_#777777] dark:shadow-[3px_4px_3px_#555555] mt-2 mb-4 sm:px-3 md:px-4 lg:px-6 rounded'>
+        <div className='flex-col justify-center items-start w-full sm:w-3/4 bg-gray-50 dark:bg-zinc-950 border border-solid dark:border-zinc-500 p-2 shadow-[3px_4px_7px_#777777] dark:shadow-[3px_4px_3px_#555555] mt-2 mb-4 sm:px-3 md:px-4 lg:px-6 rounded'>
             <h1 className='text-lg lg:text-xl text-left  mt-2 bg-clip-text text-transparent bg-gradient-to-r dark:from-[#A1C2D4] dark:via-[#BAC8A3] dark:to-[#F1F2B5]  from-[#081c58] via-[#4B545E] to-[#09313f] tracking-tight'>Have a message?</h1>
             <form onSubmit={handleSubmit} className='space-y-2 mt-2'>
                 <div>
