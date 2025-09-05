@@ -35,7 +35,7 @@ const Projects = () => {
               {proj.description}
             </p>
             <div className='flex gap-1 flex-wrap'>
-              <span className='hidden md:inline bg-clip-text text-transparent bg-gradient-to-r dark:from-[#A1C2D4] dark:via-[#BAC8A3] dark:to-[#F1F2B5] from-[#360959] via-[#040b2b] to-[#052148] tracking-tighter'>Tech Stack:</span>
+             
               {proj.techStack.map(ts => (<div className='text-xs italic border-1 border-gray-300 dark:border-gray-800 dark:text-gray-400 px-1 rounded mb-0 mt-0 '>
                 {ts}
               </div>))}

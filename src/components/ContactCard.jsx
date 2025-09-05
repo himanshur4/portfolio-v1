@@ -25,22 +25,22 @@ const ContactCard = () => {
                     <label htmlFor='name' className='block font-medium text-base text-gray-800 dark:text-gray-400 '>
                         Name:
                     </label>
-                    <input type='text' name='name' id='name' required value={formData.name} onChange={handleChange} className="mt-1 block h-8 text-sm w-full  border-gray-500 px-3 outline-none focus:border-2 border border-solid dark:border-stone-500 shadow-[1px_1px_3px_#777777] dark:shadow-[1px_1px_3px_#555555] rounded" placeholder='Enter Your Full Name' />
+                    <input type='text' name='name' id='name' required value={formData.name} onChange={handleChange} className="mt-1 block h-8 text-sm w-full  border-gray-500 px-3 outline-none focus:border-2 border border-solid dark:border-zinc-500 shadow-[1px_1px_3px_#777777] dark:shadow-[1px_1px_3px_#555555] rounded" placeholder='Enter Your Full Name' />
                 </div>
                 <div>
                     <label htmlFor='email' className='block font-medium text-base text-gray-800 dark:text-gray-400 '>
                         Email:
                     </label>
-                    <input type='text' name='email' id='email' required value={formData.email} onChange={handleChange} className="mt-1 block h-8 text-sm w-full  px-3 border-gray-500 outline-none focus:border-2 border rounded border-solid dark:border-stone-500 shadow-[1px_1px_3px_#777777] dark:shadow-[1px_1px_3px_#555555]" placeholder='Enter Your Email' />
+                    <input type='text' name='email' id='email' required value={formData.email} onChange={handleChange} className="mt-1 block h-8 text-sm w-full  px-3 border-gray-500 outline-none focus:border-2 border rounded border-solid dark:border-zinc-500 shadow-[1px_1px_3px_#777777] dark:shadow-[1px_1px_3px_#555555]" placeholder='Enter Your Email' />
                 </div>
                 <div>
                     <label htmlFor='message' className='block font-medium text-base text-gray-800 dark:text-gray-400 '>
                         Message:
                     </label>
-                    <textarea rows={3} type='textarea' name='message' id='message' required value={formData.message} onChange={handleChange} className="mt-1 block text-sm w-full border-gray-500 px-3 rounded outline-none focus:border-2 min-h-20 pt-1 border border-solid dark:border-stone-500 shadow-[1px_1px_3px_#777777] dark:shadow-[1px_1px_3px_#555555]" placeholder='Send Message...'></textarea>
+                    <textarea rows={3} type='textarea' name='message' id='message' required value={formData.message} onChange={handleChange} className="mt-1 block text-sm w-full border-gray-500 px-3 rounded outline-none focus:border-2 min-h-20 pt-1 border border-solid dark:border-zinc-500 shadow-[1px_1px_3px_#777777] dark:shadow-[1px_1px_3px_#555555]" placeholder='Send Message...'></textarea>
                 </div>
                 <div className='flex items-center justify-center'>
-                <button type='submit' className=' px-9 py-1 mt-4 mb-2 cursor-pointer border border-solid dark:border-stone-500 shadow-[3px_3px_2px_#999999] dark:shadow-[2px_2px_0px_#555555] hover-underline rounded'>
+                <button type='submit' className=' px-9 py-1 mt-4 mb-2 cursor-pointer border border-solid dark:border-zinc-500 shadow-[3px_3px_2px_#999999] dark:shadow-[2px_2px_0px_#555555] hover-underline rounded'>
                    Submit
                 </button>
                 </div>
