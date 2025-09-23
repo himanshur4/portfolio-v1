@@ -1,3 +1,5 @@
+import Experience from "./components/Experience";
+
 export const data={
     skills:[
         "Javascript","Typescript","React","Express","TailwindCSS","Next.js","Node.js","MongoDB","PostgreSQL","Prisma","GraphQL","TanStack Query","shadcn/ui","Framer Motion","Firebase","C++","Python"
@@ -81,5 +83,18 @@ export const data={
         "X":"https://x.com/himanshuucodes",
         "linkedin":"https://linkedin.com/in/himanshur4",
         "email":"himanshu.tech37.com"
-    }
+    },
+    experience:[
+        {
+            "id":"1",
+            "company":"Creditsea",
+            "locationType":"Remote",
+            "location":"Raipur, Chhatishgarh, India",
+            "role":"Full Stack Developer",
+            "workType":"Internship",
+            "joining":"September 2025",
+            "end":"Present",
+            "companyLogo":"./company1Logo.png"
+        }
+    ]
 }

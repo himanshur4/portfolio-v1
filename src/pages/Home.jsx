@@ -1,5 +1,6 @@
 
 import Contact from "../components/Contact"
+import Experience from "../components/Experience"
 import Footer from "../components/Footer"
 import Hero from "../components/Hero"
 import Navbar from "../components/Navbar"
@@ -15,6 +16,7 @@ const Home = () => {
         <Navbar/>
         <Hero />
         <Skills/>
+        {/* <Experience/> */}
         <Projects/>
         <Contact/>
         <Footer/>
