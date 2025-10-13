@@ -1,4 +1,3 @@
-import Experience from "./components/Experience";
 
 export const data={
     skills:[
@@ -82,19 +81,21 @@ export const data={
         "github":"https://github.com/himanshur4",
         "X":"https://x.com/himanshuucodes",
         "linkedin":"https://linkedin.com/in/himanshur4",
-        "email":"himanshu.tech37.com"
+        "email":"himanshu.tech37@gmail.com"
     },
-    experience:[
+    
+    "experience": [
         {
-            "id":"1",
-            "company":"Creditsea",
-            "locationType":"Remote",
-            "location":"Raipur, Chhatishgarh, India",
-            "role":"Full Stack Developer",
-            "workType":"Internship",
-            "joining":"September 2025",
-            "end":"Present",
-            "companyLogo":"./company1Logo.png"
+            "id": "1",
+            "company": "CreditSea",
+            "locationType": "Remote",
+            "location": "Raipur, Chhatishgarh, India",
+            "role": "Full-Stack Developer Intern",
+            "joining": "Sep 2025",
+            "end": "Present",
+            "companyLogo": "./company1Logo.png",
+            "description": `• Engineered a completely new Notification Model for push notifications\n• Collaborated with cross-functional teams to develop RESTful APIs serving 50,000+ daily users\n• Optimized database queries using pipelining\n• Improved admin panel UI and resolved 20+ bugs across applications`
         }
     ]
+
 }
