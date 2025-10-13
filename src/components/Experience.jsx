@@ -24,24 +24,24 @@ const Experience = () => {
                   <img src={c.companyLogo} className='w-5 sm:w-6 ml-2  dark:border-0' alt="company logo" />
                 </div>
                 
-                  <span className='text-sm sm:text-md tracking-tight dark:text-gray-300 font-normal italic'>
+                  <span className='text-xs sm:text-sm tracking-tight dark:text-gray-300 font-normal italic'>
                     {c.role}
                   </span>
                 
               </div>
               <div className='flex flex-col'>
-              <span className='text-xs sm:text-sm tracking-tight dark:text-gray-300'>
+              <span className='text-xs sm:text-sm tracking-tight dark:text-gray-300 text-right'>
                 ({c.joining}-{c.end})
                 
               </span>
-                <span className='text-sm sm:text-md tracking-tight dark:text-gray-300 font-normal italic text-right'>
+                <span className='text-xs sm:text-sm tracking-tight dark:text-gray-300 font-normal italic text-right mt-1'>
                     {c.locationType}
                 </span>
               </div>
             </div>
-            <ul className='list-disc list-inside mt-2 space-y-1 text-xs sm:text-sm tracking-tight dark:text-gray-300'>
+            <ul className='list-disc list-outside mt-2 space-y-1 text-xs sm:text-sm tracking-tight dark:text-gray-300 ml-4'>
               {c.description.split('\n').map((point, index) => (
-                <li key={index}>
+                <li key={index} className='pl-1'>
                   {point.replace('•', '').trim()}
                 </li>
               ))}

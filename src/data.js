@@ -89,7 +89,7 @@ export const data={
             "id": "1",
             "company": "CreditSea",
             "locationType": "Remote",
-            "location": "Raipur, Chhatishgarh, India",
+            "location": "Raipur, Chhattishgarh",
             "role": "Full-Stack Developer Intern",
             "joining": "Sep 2025",
             "end": "Present",
