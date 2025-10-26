@@ -92,7 +92,7 @@ export const data={
             "location": "Raipur, Chhattishgarh",
             "role": "Full-Stack Developer Intern",
             "joining": "Sep 2025",
-            "end": "Present",
+            "end": "Oct 2025",
             "companyLogo": "./company1Logo.png",
             "description": `• Engineered a completely new Notification Model for push notifications\n• Collaborated with cross-functional teams to develop RESTful APIs serving 50,000+ daily users\n• Optimized database queries using pipelining\n• Improved admin panel UI and resolved 20+ bugs across applications`
         }
